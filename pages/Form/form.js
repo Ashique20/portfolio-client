@@ -18,7 +18,7 @@ const Form = () => {
         message:data?.message
       }
 
-      fetch(`http://localhost:5000/message`,{
+      fetch(`https://portfolio-server-gules.vercel.app/message`,{
         method:'POST',
 
         headers:{
@@ -75,11 +75,11 @@ const Form = () => {
                 </label>
                 <input
                  className="input input-bordered input-info w-full max-w-xs"
-                  {...register("password", {
+                  {...register("name", {
                    
 
                   })}
-                  type="password" placeholder="Your Password"  />
+                  type="text" placeholder="Your Password" required />
                 <label className="label ">
                   {errors.password?.type === 'required' && <span className="label-text-alt text-red-400">{errors.password.message}</span>
                   }
@@ -89,7 +89,7 @@ const Form = () => {
                 </label>
 
                 <input
-                className="input input-bordered input-info w-full max-w-xs h-40"
+                className="input input-bordered input-info w-full max-w-xs h-40 " required
                   {...register("message", {
                    
 
@@ -109,7 +109,7 @@ const Form = () => {
              
 
               <input type="submit" value="Send
-              " className="btn btn-outline btn-info ml-28 w-[50%] max-w-xs" />
+              " className="btn btn-outline btn-info ml-28 w-[50%] max-w-xs" required />
             </form>
             
            
