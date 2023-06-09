@@ -75,18 +75,12 @@ const Form = () => {
                 </label>
                 <input
                  className="input input-bordered input-info w-full max-w-xs"
-                  {...register("name", {
+                  {...register("Name", {
                    
 
                   })}
                   type="text" placeholder="Your name" required />
-                <label className="label ">
-                  {errors.password?.type === 'required' && <span className="label-text-alt text-red-400">{errors.password.message}</span>
-                  }
-                  {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-400">{errors.password.message}</span>
-                  }
-
-                </label>
+              
 
                 <input
                 className="input input-bordered input-info w-full max-w-xs h-40 " required
