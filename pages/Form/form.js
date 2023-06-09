@@ -70,7 +70,7 @@ const Form = () => {
               </div>
               <div className="form-control w-full max-w-xs lg:ml-20">
                 <label className="label">
-                  <span className="label-text text-info">Password</span>
+                  <span className="label-text text-info">Name</span>
 
                 </label>
                 <input
@@ -79,7 +79,7 @@ const Form = () => {
                    
 
                   })}
-                  type="text" placeholder="Your Password" required />
+                  type="text" placeholder="Your name" required />
                 <label className="label ">
                   {errors.password?.type === 'required' && <span className="label-text-alt text-red-400">{errors.password.message}</span>
                   }
