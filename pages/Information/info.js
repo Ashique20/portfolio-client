@@ -16,7 +16,7 @@ const Info =()=>{
       </div>
       <div>
 <h1 className="mt-40 text-white ml-[40%] text-8xl"> My Skills</h1>
-<div className="grid grid-cols-2 ml-[30%] lg:grid-cols-4  justfy-center mt-40   w-2/5" style={{ backgroundImage: `url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Black-Wallpapers-Image-Free-Download.jpg")`  }}>
+<div className="grid grid-cols-3 lg:ml-[30%] lg:grid-cols-4  justfy-center mt-40   lg:w-2/5" style={{ backgroundImage: `url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Black-Wallpapers-Image-Free-Download.jpg")`  }}>
   <Skill name='React JS'  img='https://i.ibb.co/LCRyWnQ/download-removebg-preview-1.png'></Skill>
   <Skill name='HTML'  img='https://i.ibb.co/Nrvhs0S/download-removebg-preview-4.png'></Skill>
   <Skill name='CSS'  img='https://i.ibb.co/H72qdd2/download-removebg-preview-5.png'></Skill>

@@ -40,9 +40,9 @@ const Form = () => {
 
   
     return (
-        <div className="justify-center items-center h-screen flex text-black">
+        <div className="justify-center items-center h-screen flex text-black mt-20">
       <div className="card  bg-[#1F2833] shadow-xl">
-        <div className="card-body w-96">
+        <div className="card-body  w-96">
          
           <div className="flex flex-col w-full border-opacity-50 ">
             <form className="text-black" onSubmit={handleSubmit(onSubmit)}>
