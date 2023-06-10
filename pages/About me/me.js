@@ -9,7 +9,7 @@ const Me=()=>{
     <h2 className="card-title text-5xl text-info hover:text-white">About ME</h2>
     <p className="font-bold">ashiqurrahman2092003@gmail.com</p>
     <div className="card-actions w-26 mb-60 ">
-      <p>
+      <p className="text-white">
 I  am a passionate web developer,have more than a year of expereince as a Mern Stack developer.Love making diffrent types of web sides with different features.I prefer more to learn about new tools and languages of programming.Besides these i run a business page named <span className="text-info"><a href="https://www.facebook.com/Valorax101">Valorax</a></span> of cloth brand on online. </p>
     </div>
   </div>

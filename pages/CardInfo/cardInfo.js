@@ -7,7 +7,7 @@ const CardInfo =()=>{
     return(
      
        <div>
-        <h1 className="mt-[10%] ml-[48%]  text-5xl">My Projects</h1>
+        <h1 className="mt-[10%] ml-[48%] text-white  text-5xl">My Projects</h1>
          <div className=" grid grid-cols-1 lg:grid-cols-3  justfy-center  ml-28 " >
           <Card client='https://github.com/ProgrammingHeroWC4/warehouse-management-client-side-Ashique20' server='https://github.com/Ashique20/manufacture-server' name='Warehouse' info='This Webside is about A warehouse where consumers can Buy goods according to their need' link='https://assignment11-72007.web.app/' img="https://cdn3.vectorstock.com/i/1000x1000/39/82/3d-isometric-site-template-warehouse-vector-22653982.jpg"></Card>
                 <Card client='https://github.com/Ashique20/manufacture-client/tree/main/src/Pages/DashBoard' server='https://github.com/Ashique20/manufacture-server' name='Manufacture' info='This One is about Manufacturing tools. Where consumers can but tools for their use' link='https://assignment12-a1569.web.app/' img="https://img.freepik.com/free-vector/box-wrench_53876-20246.jpg?w=900&t=st=1684311064~exp=1684311664~hmac=22df0e121266b3114b1a8040536b785d7f151544405b999d63ad4ca72199a55b"></Card>

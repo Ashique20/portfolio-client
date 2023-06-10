@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='max-w-8xl mx-auto px-12 bg-[#0B0C10]'>
+    <div className='max-w-10xl mx-auto px-12 bg-[#0B0C10]'>
             <Navber></Navber>
             <Info></Info>
         <CardInfo></CardInfo>

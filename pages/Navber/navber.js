@@ -6,7 +6,7 @@ const Navber =()=>{
         <div>
              <div className="navbar bg-[#1F2833]">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">Ashiqur Rahman</a>
+    <a className="btn btn-ghost normal-case text-xl text-white">Ashiqur Rahman</a>
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
