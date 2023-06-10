@@ -41,15 +41,15 @@ const Form = () => {
   
     return (
         <div className="justify-center items-center h-screen flex text-black">
-      <div className="card lg:w-[30%] bg-[#1F2833] shadow-xl">
-        <div className="card-body">
+      <div className="card  bg-[#1F2833] shadow-xl">
+        <div className="card-body w-96">
          
           <div className="flex flex-col w-full border-opacity-50 ">
             <form className="text-black" onSubmit={handleSubmit(onSubmit)}>
 
 
 
-              <div className="form-control lg:ml-20 w-full  max-w-xs">
+              <div className="form-control  w-full  max-w-xs">
                 <label className="label">
                   <span className="label-text text-info">Email</span>
 
@@ -68,7 +68,7 @@ const Form = () => {
 
                 </label>
               </div>
-              <div className="form-control w-full max-w-xs lg:ml-20">
+              <div className="form-control w-full max-w-xs ">
                 <label className="label">
                   <span className="label-text text-info">Name</span>
 
@@ -103,7 +103,7 @@ const Form = () => {
              
 
               <input type="submit" value="Send
-              " className="btn btn-outline btn-info ml-28 w-[50%] max-w-xs" required />
+              " className="btn btn-outline btn-info w-[50%] max-w-xs" required />
             </form>
             
            
