@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='bg-dark'>
+    <div className='bg-[#0B0C10]'>
             <Navber></Navber>
             <Info></Info>
         <CardInfo></CardInfo>
