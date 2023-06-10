@@ -3,7 +3,7 @@ import React from "react";
 const Me=()=>{
     return(
         <div>
-            <div className="card lg:card-side  shadow-xl bg-base-100 w-[70%]  ml-[20%] mt-56">
+            <div className="card lg:card-side  shadow-xl bg-[#1F2833] w-[70%]  ml-[20%] mt-56">
   <figure className="mr-20 w-[100%]"><img  src="https://media.giphy.com/media/ZgTR3UQ9XAWDvqy9jv/giphy.gif" alt="Album"/></figure>
   <div className="card-body">
     <h2 className="card-title text-5xl text-info hover:text-white">About ME</h2>

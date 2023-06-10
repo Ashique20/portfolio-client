@@ -41,7 +41,7 @@ const Form = () => {
   
     return (
         <div className="justify-center items-center h-screen flex text-black">
-      <div className="card lg:w-[30%] bg-base-100 shadow-xl">
+      <div className="card lg:w-[30%] bg-[#1F2833] shadow-xl">
         <div className="card-body">
          
           <div className="flex flex-col w-full border-opacity-50 ">
